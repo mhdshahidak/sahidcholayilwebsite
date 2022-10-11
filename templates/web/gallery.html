@@ -1,0 +1,35 @@
+{% extends 'web/base.html' %} {% load static %} {% block content %}
+
+<section class="banner-content">
+  <div class="container-fluid">
+    <div class="title mb-5">
+      <div class="row" id="heading">
+        <h1>Gallery</h1>
+      </div>
+    </div>
+
+    <section class="gallery" id="gallery1">
+      <div class="container">
+        <div class="row">
+          {% for gallery in gallery %}
+
+          <div class="col-lg-4 col-sm-6 col-md-6">
+            <a
+              href="{{gallery.image.url}}"
+              data-lightbox="roadtrip"
+              target="blank"
+            >
+              <img src="{{gallery.image.crop.350x350}}" alt="Gallery" />
+            </a>
+          </div>
+
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ********Footer******** -->
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% load static %}
+<div class="team-section container-fluid no-padding">
+    <div class="section-padding"></div>
+    <div class="container">
+        <div class="row">
+            <!-- Main Carousel -->
+            <div id="main-carousel1" class="carousel slide carousel-fade" data-ride="carousel">
+                <div role="listbox" class="carousel-inner">
+                    <div class="item active">
+                        <div class="team-content">
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <img src="{% static 'web/images/team.png' %}" alt="team" width="468" height="595" />
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <div class="section-header left-header">
+                                    <h3>Our Expertise</h3>
+                                    <h5>High Quality and Tasty</h5>
+                                    <img src="{% static 'web/images/section-seprator-1.png' %}" alt="section-seprator" width="70" height="3">
+                                    <p>
+                                        Leechoco is specialized in made-to-order confectionery products. We carry a large
+                                        selection of premium cakes, chocolates, pies, and a wide variety of pastries and
+                                        other delicatessens.
+                                    </p>
+                                    <div class="team-contact-info">
+                                        
+                                        <p><a href="mailto:{{about.email}}" title="{{about.email}}"><i class="fa fa-envelope" aria-hidden="true"></i>{{about.email}}</a></p>
+                                        <p><a href="tel:{{about.phone}}" title="{{about.phone}}"><i class="fa fa-phone" aria-hidden="true"></i>Phone: {{about.phone}}</a></p>
+                                    </div>
+                                </div><!-- Section Header /-  -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- Main Carousel /-  -->
+        </div>
+    </div><!-- Container /- -->
+</div><!-- Team Section /- -->

@@ -1,0 +1,33 @@
+{% extends 'web/base.html' %} {% load static %} {% block content %}
+
+    <section class="banner-content">
+        <div class="container-fluid">
+            <div class="title mb-5">
+                <div class="row" id="heading">
+                  <h1>Awards</h1>
+                </div>
+              </div>
+        <div class="awards mt-5"  id="awards">
+            <div class="container">
+                <div class="row">
+
+                    {% for award in award %}
+                    <div class="col-lg-6 col-sm-12 col-md-12">
+                        <img src="{{award.image.crop.540x240}}" alt="">  
+                        <div class="award">
+                        <h4 style="color: #c4a34e;">{{award.date|date:"Y"}}<h4>
+                        <p>{{award.title}}</p>
+                       <p>{{award.subject}}</p>  
+                        <p>{{award.place}}</p>
+                    </div>
+                </div> 
+                    {% endfor %}
+            </div>
+        </div>   
+        </div>
+        </div>
+    </section>
+
+
+
+{% endblock %}

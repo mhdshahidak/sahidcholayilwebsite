@@ -1,0 +1,179 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+<style>
+    /* .indexrow{
+        height: 451px;
+    } */
+</style>
+<!-- Home -->
+<section class="banner-content">
+    <div class="container">
+        <div class="banner">
+            <div class="row banner indexrow " id="banner_img" >
+
+
+
+               
+
+
+
+
+                 <div class="col-lg-6 col-md-6 col-sm-12 col-12 margin-margin d-none d-lg-block d-md-block">
+                   <div class="row bordered-box">
+                       
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="background-color: rgb(48, 48, 48);text-align: center;">
+                            <img src="../../static/web/img/logo.png" alt="" srcset="" class="logo logo-responsive secondlogo ">
+                            <div class="servent-class">
+                                <h4 class="servent">Servent of Humanity</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                            <ul class="list-none">
+                                <li>HUMANITARIAN</li>
+                                <li>EGALITARIAN</li>
+                                <li>VISIONARY</li>
+                                <li>DREAMER & TRANSFORMER</li>
+                                <li>THINKER & DOER</li>
+                                <li>SOCIAL ENTREPRENEUR</li>
+                                <li>LEADER & FOUNDER</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+
+                 <!-- <div class="bordered-box"> -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 d-sm-block d-block text-right">
+                        <div class="imagebx">
+                            <img class="sahidimg" src="{% static 'web/img/Sahid.png' %}" alt="DR SAHID">
+
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 margin-margin d-block d-lg-none d-md-none">
+                        <div class="row bordered-box">
+                            
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-6" style="background-color: rgb(48, 48, 48);text-align: center;">
+                                 <img src="../../static/web/img/logo.png" alt="" srcset="" class="logo logo-responsive">
+                                 <div class="servent-class">
+                                     <h4 class="servent">Servent of Humanity</h4>
+                                 </div>
+                             </div>
+                             <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                                 <ul class="list-none">
+                                     <li>HUMANITARIAN</li>
+                                     <li>EGALITARIAN</li>
+                                     <li>VISIONARY</li>
+                                     <li>DREAMER & TRANSFORMER</li>
+                                     <li>THINKER & DOER</li>
+                                     <li>SOCIAL ENTREPRENEUR</li>
+                                     <li>LEADER & FOUNDER</li>
+                                 </ul>
+                             </div>
+                         </div>
+                         <div>
+                         </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12 text-center">
+                    
+                        <h3 class="mission">MISSION POSSIBLE</h3>
+                    </div>
+
+
+
+                
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <div class="container">
+        <h2 class="">About</h2>
+        <p id="about_head">Sahid Cholayil is an Indian entrepreneur from Dubai, the founder and chairman of “Mission
+            3G”, and the winner of 2018 Entrepreneurship RACE Award Competition at Harvard University.</p>
+        <p id="aboutp">Mission 3G is a humanitarian enterprise founded by Dr Sahid as a result of years of research in multiple
+            areas such as threats to mankind, society & nation, education, technology, neuroscience, psychology,
+            sociology, epistemological elements of philosophy, world economics – market needs and feasibility, and
+            value systems. Mission 3G is led by a team of academic experts from Harvard University, Massachusetts
+            Institute of Technology, Indian Institute of Technology (Bombay), Indian Institute of Management
+            (Bangalore) and many other institutes of academic excellence. The organization is addressing various
+            problems of third millennium such as existential vacuum of human life, challenges of education 3.0,
+            technology unemployment due to fourth industrial revolution etc and there by developing solutions to
+            impact humanity by means of human centric designs and naturalistic thinking. Dr Sahid and his team is
+            well-known for their work towards developing the world’s first “Life Management System” that can deliver
+            individualized dynamic curriculum and personalized dynamic pedagogy which will be catering to the
+            learning needs of an individual from “Womb to Tomb”. The concept of “Life Management System” has evolved
+            from Sahid’s vision to help every human life identify the true purpose of their lives through an
+            in an innovative venture administering the latest technology of IBM WATSON and SAP HANA, operating
+            educational paradigm and further helping humanity to pursue their purpose. The Life Management System is
+            through 3G Learning Initiatives (Bangalore) and 3G Institute of Research and Policy Studies (New Delhi).
+        </p>
+        <button class="btn"><a href="{% url 'web:about' %}">More About</a></button>
+        <button class="btn"><a href="{% url 'web:contact' %}">Get Appointment</a></button>
+    </div>
+    </div>
+</section>
+
+<!-- News and Updates -->
+<section class="news" id="news">
+    <div class="container">
+        <h2>News and Updates</h2>
+        <div class="row" id="newsrd">
+            <div class="owl-carousel">
+            {% for updates in updates %}           
+                <div class="item">
+                        <img src="{{updates.image.crop.350x240}}" class="img-fluid" alt="">
+                        <p>{{updates.details}}</p>
+                        <p id="date">{{updates.date}}<span> <a style="text-decoration: none; color: #c4a34e ; "
+                                    href="{% url 'web:updates' %}">Read More...</a></span> </p>
+                </div>
+                
+                {% endfor %}
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery1">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="owl-carousel">
+                {% for gallery in gallery %}
+                <div class="item">
+                    <a href="{{gallery.image.url}}" data-lightbox="roadtrip" target="blank">
+                        <img src="{{gallery.image.crop.350x350}}" alt="Gallery">
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="col-12 text-center">
+                <button class="btn" id="gallerybtn"> <a href="{% url 'web:gallery' %}">Explore More</a> </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ********Footer******** -->
+
+
+
+
+
+
+
+
+
+{% endblock %}

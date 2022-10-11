@@ -1,0 +1,58 @@
+{% extends 'web/base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="banner-content">
+  <div class="container-fluid">
+    <div class="title mb-5">
+      <div class="row" id="heading">
+        <h1>Contact</h1>
+      </div>
+    </div>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 col-md-6" id="contact-adrs">
+            <h4 class="pb-4" style="color: #c4a34e">Get In Touch</h4>
+            <p>Harvard Square</p>
+            <p>82 Wendell Ave.STE 100</p>
+            <p>Pittsfield, Massachusetts 01201</p>
+            <p>Tel (Office):<a href="tel:+97112345645"> 97112345645</a></p>
+            <p>Direct :<a href="tel:+971123456456"> 971123456456</a></p>
+            <p>Email : <a href="#">ShaidCholayil@gmail.com</a></p>
+          </div>
+
+          <div class="col-lg-6 col-sm-12 col-md-6" id="contactbg">
+            <h4 style="color: #c4a34e">Get An Appoinment</h4>
+            <div class="row">
+              <div class="col-12">
+                <form id="contact-form" method="POST" action="" class="ajax">
+                  {% csrf_token %}
+                  <div class="row">
+                    <div class="col-12"> <div class="form-group" > {{contact.name}}</div></div>
+                    <div class="col-12"> <div class="form-group" > {{contact.subject}}</div></div>
+                    <div class="col-6"> <div class="form-group" > {{contact.location}}</div></div>
+                    <div class="col-6"><div class="form-group" > {{contact.email}}</div></div>
+                    <div class="col-6"> <div class="form-group" > {{contact.number}}</div></div>
+                    <div class="col-6"> <div class="form-group" > {{contact.whatsapp_number}}</div></div>
+                    <div class="col-6"><div class="form-group" > {{contact.date}}</div></div>
+                    <div class="col-6"> <div class="form-group" > {{contact.time}}</div></div>
+                  </div>
+                  <button
+                    class="btn btn-primary"
+                    id="contact-btn"
+                    type="submit"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+{% endblock %}

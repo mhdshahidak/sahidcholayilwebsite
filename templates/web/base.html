@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% load static %}
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahid Cholayil</title>
+
+    <meta property="og:title" content="Sahid Cholayil" />
+    <meta property="og:description" content="Sahid Cholayil is an Indian entrepreneur from Dubai, the founder and chairman of “Mission 3G”, and the winner of 2018 Entrepreneurship RACE Award Competition at Harvard University" />
+    <meta property="og:image" content="{% static 'web/img/news2.png' %}" />
+
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="{% static 'web/css/bootstrap.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'web/css/lightbox.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'web/vendor/icofont/icofont.min.css' %}" />
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'web/css/responsive.css' %}" />
+    <link rel="icon" type="image/x-icon" href="{% static 'web/img/news2.png' %}" style="border-radius: 50%;" />
+    <link rel="stylesheet" href="{% static 'web/css/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'web/css/owl.theme.default.css' %}">
+    
+  </head>
+
+  <body>
+    {% include "partials/header.html" %} 
+    {% block content %}
+    
+    {% endblock %} 
+    {% include "partials/footer.html" %}
+
+    <script src="{% static 'web/js/jquery.min.js' %}"></script>
+    <script src="{% static 'web/js/popper.min.js' %}"></script>
+    <script src="{% static 'web/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'web/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'web/js/script.js' %}"></script>
+    <script src="{% static 'web/js/main.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.15.3/dist/sweetalert2.all.min.js"></script>
+    
+    {% block javascript %}{% endblock %}
+  </body>
+</html>

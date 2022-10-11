@@ -1,0 +1,1295 @@
+@media only screen and (min-width: 1201px) {
+  .servent-class {
+    border: 1px solid #055214;
+    margin-top: 38px;
+    border-radius: 3px;
+}
+.servent {
+  font-size: 25px;
+}
+.mission {
+  color: #c4a34e;
+  margin: 7px 0px 0px -2px;
+}
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  #heading {
+    margin: 0px -13px;
+    background: #333333;
+    padding: 60px 510px;
+    align-content: center;
+    opacity: 0.6;
+  }
+
+  .banner .row p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 38px;
+  }
+
+  .banner_name h1 {
+    font-size: 40px;
+  }
+
+  #sahid_company {
+    text-indent: 44px;
+    line-height: 10px;
+    font-size: 14px;
+  }
+
+  #toggle {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 35%, #333333);
+    margin-left: -130px;
+    padding-right: 85px;
+    padding-bottom: 40px;
+    border-radius: 140px;
+  }
+
+  .banner_name {
+    color: #c4a34e;
+    padding: 150px 0px 0px 0px;
+    margin: 0;
+  }
+
+  .sahidimg {
+    margin: 0px 0px 0px 0px;
+    width: 400px;
+  }
+
+  #about h2 {
+    margin-bottom: 25px;
+  }
+
+  .servent-class {
+    border: 1px solid #055214;
+    margin-top: 38px;
+    border-radius: 3px;
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .banner-content {
+    background: url(../img/banner_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #gallery1 img {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 25px;
+  }
+
+  .header .my-nav ul li .menu {
+    color: white;
+    font-weight: 500;
+    border-right: 1px solid #c4a34e;
+    line-height: 0.1;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+
+  #heading {
+    margin: 0px -14px;
+    background: #333333;
+    padding: 60px 415px;
+    align-content: center;
+    opacity: 0.6;
+  }
+
+  #about button {
+    color: black;
+    padding: 6px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 0px;
+  }
+
+  .header {
+    padding: 0px 0px 0 0px;
+    width: 100%;
+    z-index: 12;
+  }
+
+  #sidebar {
+    font-size: 26px;
+    top: 26px;
+    padding-left: 4px;
+  }
+
+  #toggle {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 35%, #333333);
+    margin-left: -56px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    border-radius: 90px;
+  }
+
+  .logo1 {
+    width: 90px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  #toggle_title {
+    font-size: 14px;
+    margin: 2px 0 0px 30px;
+  }
+
+  #tog_media {
+    padding: 0px 0px 5px 50px;
+  }
+
+  #tog_media li a {
+    margin: 8px 2px 0 5px;
+    font-size: 14px;
+  }
+
+  .banner .row p {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 34px;
+  }
+
+  #banner_title {
+    margin: 0px;
+    padding-top: 120px;
+  }
+
+  .sahidimg {
+    width: 350px;
+    padding: 27px 0px 0px 32px;
+    margin: 0;
+  }
+
+  .banner_name h1 {
+    font-size: 35px;
+  }
+
+  #sahid_company {
+    text-indent: 45px;
+    font-size: 12px;
+  }
+
+  .banner_name {
+    color: #c4a34e;
+    margin: 0px;
+    padding-top: 120px;
+  }
+
+  #about h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  #about_head {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .about p {
+    line-height: 13px;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  #aboutp {
+    line-height: 1.5;
+  }
+
+  #news h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  #news img {
+    width: 100%;
+  }
+
+  .news p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .news button {
+    color: black;
+    padding: 3px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 10px;
+  }
+
+  #all_news {
+    border: 2px solid #c4a34e;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
+  #gallery h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .gallery img {
+    margin-bottom: 15px;
+    width: 110%;
+  }
+
+  #gallerybtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 30px;
+  }
+
+  .position h2 {
+    color: #c4a34e;
+    font-size: 25px;
+  }
+
+  .position h4 {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .position p {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .position h4 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .margin-margin {
+    margin-top: 46px;
+  }
+
+  .secondlogo {
+    width: 103px;
+    padding-top: 57px;
+    object-fit: contain;
+    object-position: left;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .logo {
+    width: 80px;
+    object-fit: contain;
+    object-position: left;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+
+  .banner-content {
+    background: url(../img/banner_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #gallery1 img {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  #heading {
+    margin: 0px -15px;
+    background: #333333;
+    padding: 40px 300px;
+    align-content: center;
+    opacity: 0.6;
+  }
+
+  #heading h1 {
+    font-size: 60px;
+    color: #c4a34e;
+  }
+
+  #about button {
+    color: black;
+    padding: 4px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 5px;
+  }
+
+  .header {
+    padding: 0px;
+    width: 100%;
+    z-index: 12;
+  }
+
+  #banner_title {
+    margin: 0px;
+    padding-top: 63px;
+  }
+
+  .banner .row p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .sahidimg {
+    margin-left: 69px;
+    width: 264px;
+    height: 286px;
+    padding: 0;
+  }
+
+  #sidebar {
+    font-size: 25px;
+    top: 26px;
+    padding-left: 140px;
+  }
+
+  .logo1 {
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  #toggle_title {
+    margin: 0px 0 0px 30px;
+    line-height: 20px;
+  }
+
+  #toggle a {
+    color: #fff;
+    font-size: 15px;
+  }
+
+  #tog_media {
+    padding: 0px 0px 0px 60px;
+  }
+
+  #toggle {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 35%, #333333);
+    margin-left: -54px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    border-radius: 125px;
+  }
+
+  #tog_media li a {
+    margin: 10px 5px 0 5px;
+  }
+
+  .banner_name h1 {
+    font-size: 25px;
+  }
+
+  #sahid_company {
+    text-indent: 24px;
+    font-size: 9px;
+  }
+
+  .banner_name {
+    color: #c4a34e;
+    margin: 0px;
+    padding-top: 47px;
+  }
+
+  #about {
+    margin: 0px 0px;
+  }
+
+  #about h2 {
+    /* margin-top: 10px; */
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+
+  #about img {
+    float: left;
+    margin: 20px 15px 0px 0px;
+  }
+
+  #about_head {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    line-height: 20px;
+  }
+
+  .about p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 16px;
+    margin-bottom: 8px;
+  }
+
+  #aboutp {
+    line-height: 1.5;
+  }
+
+  #news h2 {
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+
+  .news p {
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  .news button {
+    color: black;
+    padding: 4px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 8px;
+  }
+
+  #all_news {
+    border: 1px solid #c4a34e;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+  #gallery h2 {
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+
+  #gallerybtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 21px;
+  }
+
+  .gallery img {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+  }
+
+  .footer h4 {
+    font-weight: 500;
+    font-size: 22px;
+  }
+
+  #useful a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .footer .row ul li {
+    padding: 0px 17px 0px 0px;
+    line-height: 20px;
+  }
+
+  #fot_con_title {
+    margin-bottom: 10px;
+  }
+
+  #footer_contact p {
+    font-size: 15px;
+    line-height: 10px;
+  }
+
+  #media li a {
+    background-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    color: black;
+    font-size: 17px;
+  }
+
+  .position h2 {
+    font-size: 25px;
+    color: #c4a34e;
+  }
+
+  .position h4 {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 10px;
+  }
+
+  .position p {
+    font-size: 13px;
+    text-align: justify;
+    line-height: 16px;
+    margin-bottom: 13px;
+  }
+
+  #awards h2 {
+    font-size: 25px;
+  }
+
+  .margin-margin {
+    margin-top: 27px;
+  }
+
+  .list-none {
+    list-style: none;
+    font-size: 9px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    padding-left: 17px;
+    margin-top: 5px;
+  }
+
+  .servent {
+    margin-bottom: 0.1rem;
+    font-size: 14px;
+  }
+
+  .servent-class {
+    border: 1px solid #055214;
+    margin-top: 16px;
+    border-radius: 3px;
+  }
+
+  .bordered-box {
+    border: 8px solid #b18a03;
+    height: 116px;
+  }
+
+  .logo-responsive {
+    width: 80px;
+    object-fit: contain;
+    object-position: left;
+    padding-top: 0px;
+    padding-left: 13px;
+  }
+
+  .mission {
+    color: #c4a34e;
+    font-size: 23px;
+    margin: 23px;
+  }
+
+  .margin-margin {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 421px) and (max-width: 576px) {
+
+  #mobile_menu_wrapper #menu_toggler::before,
+  #mobile_menu_wrapper #menu_toggler::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+    z-index: 30;
+  }
+
+  #mobile_menu_wrapper #menu_toggler {
+    display: block;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+    position: relative;
+    z-index: 30;
+  }
+
+  #mobile_menu {
+    position: absolute;
+    top: 44px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  .logo {
+    width: 78px;
+    object-fit: contain;
+    object-position: left;
+    padding-top: 0px;
+  }
+
+  #gallery1 img {
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  #heading {
+    margin: 0px -15px;
+    background: #333333;
+    padding: 45px 210px;
+    align-content: center;
+    opacity: 0.6;
+  }
+
+  #heading h1 {
+    font-size: 50px;
+    color: #c4a34e;
+    font-weight: 800;
+  }
+
+  #about button {
+    color: black;
+    padding: 2px 13px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 5px;
+  }
+
+  #aboutp {
+    /* text-align: justify;
+    font-size: 15px; */
+    line-height: 1.5;
+  }
+
+  #sidebar {
+    font-size: 28px;
+    top: 15px;
+    padding-left: 0px;
+  }
+
+  .header {
+    padding: 25px 0px 0px 0px;
+    width: 100%;
+    z-index: 12;
+  }
+
+  #sidebar {
+    font-size: 25px;
+    top: 15px;
+    padding-left: 106px;
+  }
+
+  .logo1 {
+    width: 70px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+  }
+
+  #toggle {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 35%, #333333);
+    margin: 0 0px 0 -25px;
+    padding: 0px 0 0 0px;
+    border-radius: 160px;
+  }
+
+  #toggle_title {
+    margin: 0px 0px 0px 30px;
+    line-height: 22px;
+  }
+
+  #tog_media li a {
+    margin: 0px 0px 0px 5px;
+  }
+
+  #tog_media {
+    padding: 8px 0px 30px 36px;
+  }
+
+  .banner .row p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 30px;
+    margin-left: 70px;
+  }
+
+  #banner_title {
+    margin: 0px 0px 0px 0px;
+    padding-top: 260px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .banner_name h1 {
+    font-size: 35px;
+  }
+
+  #sahid_company {
+    text-indent: 30px;
+    font-size: 13px;
+    text-align: left;
+  }
+
+  /* .sahidimg {
+    width: 272px;
+    height: 310px;
+    margin: 0px 51px -32px -96px;
+    opacity: 0.8;
+    margin-top: 0px;
+  } */
+  .sahidimg {
+    width: 256px;
+    height: 267px;
+    margin: 0px 51px -32px -96px;
+    opacity: 0.8;
+    margin-top: 0px;
+  }
+
+  #banner_img {
+    text-align: center;
+  }
+  #gallerybtn {
+    margin: 20px 0px 0px 0px;
+  }
+
+  #gallerybtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 20px;
+  }
+
+  .banner-content {
+    background: url(../img/banner_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .banner_name {
+    color: #c4a34e;
+    margin: 0px;
+    padding-top: 42px;
+  }
+
+  #about {
+    margin: 0px 0px;
+  }
+
+  #about img {
+    float: left;
+    margin: 14px 15px 2px 0px;
+  }
+
+  #about h2 {
+    /* margin-top: 61px; */
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+
+  #about_head {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+
+  .about p {
+    line-height: 15px;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+
+  #aboutp {
+    line-height: 1.5;
+  }
+
+  #news h2 {
+    margin-top: 25px;
+    margin-bottom: 14px;
+    font-size: 25px;
+  }
+
+  #gallery1 h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  #news img {
+    width: 100%;
+  }
+
+  .news p {
+    margin: 5px 2px 0px 10px;
+    font-size: 13px;
+    font-weight: 400;
+    /* margin-bottom: 0px; */
+    line-height: 16px;
+  }
+
+  #date {
+    font-size: 12px;
+    color: #736767;
+  }
+
+  .news button {
+    color: black;
+    padding: 2px 2px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-bottom: 6px;
+  }
+
+  #all_news {
+    border: 1px solid #c4a34e;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-right: -20px;
+  }
+
+  #gallery h2 {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  #gallery img {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  #footer h4 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 4px;
+  }
+
+  #useful a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .footer .row ul li {
+    padding: 0px 10px 0px 0px;
+  }
+
+  #sm_title {
+    margin: 0px;
+  }
+
+  #footer_contact p {
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  #media li a {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    color: black;
+    font-size: 20px;
+  }
+
+  #awards h2 {
+    font-size: 25px;
+  }
+
+  #position h2 {
+    font-size: 25px;
+  }
+
+  .position h4 {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .position p {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .margin-margin {
+    margin-top: 32px;
+  }
+
+  .list-none {
+    list-style: none;
+    font-size: 10px;
+    line-height: 1;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    padding-left: 6px;
+    margin-top: 5px;
+  }
+
+  .margin-margin {
+    margin-top: 30px;
+  }
+
+  .bordered-box {
+    border: 8px solid #b18a03;
+    height: 98px;
+  }
+
+  .mission {
+    color: #c4a34e;
+    margin: 22px 0px 30px 0px;
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 420px) {
+
+  #mobile_menu_wrapper #menu_toggler::before,
+  #mobile_menu_wrapper #menu_toggler::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    z-index: 30;
+  }
+
+  #mobile_menu_wrapper #menu_toggler {
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #fff;
+    position: relative;
+    z-index: 30;
+  }
+
+  #gallerybtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 21px;
+  }
+
+  #gallerybtn {
+    padding: 2px 20px;
+    background-color: #c4a34e;
+  }
+
+  .sahidimg {
+    margin-top: 100px;
+    margin: 0px 0px -37px -82px;
+    width: 270px;
+    height: 280px;
+    padding: 0;
+    opacity: .8;
+  }
+
+  .mission {
+    color: #c4a34e;
+    margin: 22px 0px 10px 0px;
+  }
+
+  /* .sahidimg {
+  width: 280px;
+  height: 350px;
+  margin: 0px 0px -32px -96px;
+  opacity: 0.8;
+  margin-top: 0px;
+} */
+  #banner_img {
+    text-align: center;
+  }
+
+  #gallery1 h2 {
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+
+  #about img {
+    float: none;
+    width: 285px;
+    margin: 14px 15px 0px 0px;
+  }
+
+  #about {
+    margin: 0px 0px 0px 0px;
+    backdrop-filter: brightness(0.4);
+  }
+
+  #awards p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  #about button {
+    color: black;
+    padding: 0px 12px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #c4a34e;
+    margin-top: 6px;
+    margin-bottom: 10px;
+  }
+
+  #heading h1 {
+    font-weight: 600;
+    margin: 0px 0px 0px -31px;
+    font-size: 40px;
+    color: #c4a34e;
+  }
+
+
+  #heading {
+    margin: 0px -14px;
+    background: #333333;
+    padding: 30px 122px;
+    align-content: center;
+    opacity: 0.6;
+  }
+
+  .header {
+    padding: 0 0px 0px 0px;
+    width: 100%;
+    z-index: 12;
+  }
+
+  #sidebar {
+    font-size: 20px;
+    top: -65px;
+    left: 270px;
+    padding-left: 0px;
+  }
+
+  .fa-search:before {
+    content: "\f002";
+    font-size: 20px;
+    margin-left: -30px;
+  }
+
+  .banner .row p {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+
+  #banner_title {
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
+    padding-top: 420px;
+  }
+
+  .banner_name h1 {
+    font-size: 26px;
+    margin-left: 0px;
+  }
+
+  #sahid_company {
+    text-indent: -24px;
+    font-size: 10px;
+  }
+
+  .banner_name {
+    color: #c4a34e;
+    margin: 0px 0px 0px 0px;
+    padding-top: 35px;
+  }
+
+  .banner-content {
+    background: url(../img/banner_bg.png) no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  #about h2 {
+    /* margin-top: 65px; */
+    margin-bottom: 23px;
+    font-size: 20px;
+  }
+
+  #about_head {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+
+  .about p {
+    line-height: 1.5;
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 3px;
+  }
+
+  #aboutp {
+    line-height: 1.5;
+  }
+
+  #para {
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+  }
+
+  #news h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .news p {
+    /* margin-top: 7px; */
+    margin: 7px 0px 5px 8px;
+    font-size: 12px;
+    font-weight: 300;
+    /* margin-bottom: 5px; */
+    line-height: 15px;
+  }
+
+  .news button {
+    color: black;
+    padding: 1px 1px;
+    font-size: 12px;
+    background-color: #c4a34e;
+    margin-bottom: 15px;
+  }
+
+  #all_news {
+    border: 1px solid #c4a34e;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: -25px;
+    margin-right: -50px;
+  }
+
+  #footer h4 {
+    margin-top: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    /* text-align: center; */
+  }
+
+  #useful a {
+    font-size: 13px;
+  }
+
+  #footer_contact p{
+    font-size: 13px;
+  }
+
+  #connect{
+    text-align: center;
+  }
+
+  #media {
+    margin-top: -11px;
+  }
+
+  #copyright {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 14px;
+  }
+
+  #hrline {
+    opacity: 0.3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #footer_contact {
+    line-height: 15px;
+    padding-left: 14px;
+  }
+
+  #position h2 {
+    font-size: 20px;
+  }
+
+  .position h4 {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  .position p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  #awards h2 {
+    font-size: 20px;
+  }
+
+  #toggle {
+    background-color: #000000;
+    background-image: linear-gradient(180deg, #000000 35%, #333333);
+    margin: 0 0px 0 -55px;
+    padding: 0px 0 0 0px;
+    border-radius: 160px;
+  }
+
+  .logo1 {
+    width: 65px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+  }
+
+  #toggle a {
+    color: #fff;
+    font-size: 14px;
+  }
+
+  #toggle_title {
+    margin: 0px 0px 0px 30px;
+    line-height: 20px;
+  }
+
+  #tog_media {
+    padding: 0px 0px 20px 35px;
+  }
+
+  #tog_media li a {
+    margin: 0px 0px 0px 5px;
+    font-size: 12px;
+  }
+
+  #mobile_menu {
+    position: absolute;
+    top: 48px;
+    right: 25px;
+    cursor: pointer;
+  }
+
+  .margin-margin {
+    margin-top: 36px;
+  }
+
+  .list-none {
+    list-style: none;
+    font-size: 10px;
+    line-height: .8rem;
+    font-weight: 600;
+    margin-bottom: 0px !important;
+    padding-left: 6px;
+    margin-top: 13px;
+  }
+
+  .bordered-box {
+    border: 8px solid #b18a03;
+    height: 120px;
+  }
+}
